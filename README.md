@@ -131,6 +131,5 @@ Depending on the folder, the repository may contain:
 Please cite the following study if you make use of the files available in this repository.
 
 ```csv
-Authors,Title,Journal,Year,Volume,Issue,Pages,DOI
-"XXXX","Machine-Learning-Potential-Driven Volcano Relationship in Grain Boundary Amorphicity and Ionic Transport of Antiperovskite Solid Electrolytes","XXXX","XXXX","XXXX","XXXX","XXXX","XXXX"
+Abdullah Bin Faheem and Haobo Li. "Machine-Learning-Potential-Driven Volcano Relationship in Grain Boundary Amorphicity and Ionic Transport of Antiperovskite Solid Electrolytes." Journal XXX (20XX): XX-XX.
 ---
