@@ -53,23 +53,18 @@ Generate initial structures → Train MACE model → Run MACE-driven MD → Expl
 ```
 
 ### `0_RAG_Structure_Generator/`
-
 Located in `MACE_Active_Learning/1_iteration/`, this folder contains the workflow used to generate the initial dataset for the first MACE training iteration.
 
 ### `1_training/`
-
 Contains the MACE training files for each iteration. These folders may include training configurations, input datasets, trained model files, logs, and model-error outputs.
 
 ### `2_md/`
-
 Contains molecular dynamics simulations performed using the MACE potential from the corresponding iteration. These simulations were used to sample additional atomic environments beyond the current training set.
 
 ### `3_exploration/`
-
 Contains structures selected from the MD/exploration stage. These configurations were used to identify new or underrepresented regions of configurational space for further evaluation.
 
 ### `4_dft/`
-
 Contains DFT-labelled structures selected from the exploration stage. The resulting reference energies, forces, and/or stresses were added to the training data for the next active-learning iteration.
 
 ---
