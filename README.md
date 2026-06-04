@@ -128,8 +128,7 @@ Depending on the folder, the repository may contain:
 
 ## Citation
 
-Please cite the following study if you make use of the files available in this repository.
+Please cite the following study if you make use of the files available in this repository:
 
-```csv
 Abdullah Bin Faheem and Haobo Li. "Machine-Learning-Potential-Driven Volcano Relationship in Grain Boundary Amorphicity and Ionic Transport of Antiperovskite Solid Electrolytes." Journal XXX (20XX): XX-XX.
----
+
