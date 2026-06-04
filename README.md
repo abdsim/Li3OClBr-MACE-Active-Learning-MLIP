@@ -21,10 +21,6 @@ Li3OClBr-MACE-Active-Learning-MLIP/
 │   │   ├── 3_exploration/
 │   │   └── 4_dft/
 │   └── 3_iteration/
-│       ├── 1_training/
-│       ├── 2_md/
-│       ├── 3_exploration/
-│       └── 4_dft/
 │
 └── PCA_Analysis/
     ├── Amorphous_validation_dataset/
