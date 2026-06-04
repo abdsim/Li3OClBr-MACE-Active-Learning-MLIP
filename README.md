@@ -133,7 +133,4 @@ Please cite the following study if you make use of the files available in this r
 ```csv
 Authors,Title,Journal,Year,Volume,Issue,Pages,DOI
 "XXXX","Machine-Learning-Potential-Driven Volcano Relationship in Grain Boundary Amorphicity and Ionic Transport of Antiperovskite Solid Electrolytes","XXXX","XXXX","XXXX","XXXX","XXXX","XXXX"
-
-Please also cite MACE according to the citation instructions provided in the official MACE documentation or repository.
-
 ---
