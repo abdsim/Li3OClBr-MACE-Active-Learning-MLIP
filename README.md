@@ -128,7 +128,7 @@ Depending on the folder, the repository may contain:
 
 ## Citation
 
-If you use this repository, datasets, or workflow, please cite the associated paper:
+Please cite the following study if you make use of the files available in this repository.
 
 ```csv
 Authors,Title,Journal,Year,Volume,Issue,Pages,DOI
