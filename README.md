@@ -69,7 +69,7 @@ Contains DFT-labelled structures selected from the exploration stage. The result
 ---
 
 ## Final MACE Model Training and Validation
-Following the active-learning iterations, the final MACE MLIP was trained using the curated dataset generated. The training/validation errors and parity plots for energies/forces are shown below.
+Following the active-learning iterations, the final MACE MLIP was trained using the curated dataset. The training/validation errors and parity plots for energies/forces are shown below.
 
 ![Final MACE MLIP training and validation performance](figures/mace_training_validation_epoch496.png)
 
