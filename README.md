@@ -9,8 +9,6 @@ This repository accompanies work on training a **MACE machine-learning interatom
 ```text
 Li3OClBr-MACE-Active-Learning-MLIP/
 ├── README.md
-├── figures/
-│   └── mace_training_validation_epoch496.png
 ├── MACE_Active_Learning/
 │   ├── 1_iteration/
 │   │   ├── 0_RAG_Structure_Generator/
@@ -65,15 +63,6 @@ Contains structures selected from the MD/exploration stage. These configurations
 
 ### `4_dft/`
 Contains DFT-labelled structures selected from the exploration stage. The resulting reference energies, forces, and/or stresses were added to the training data for the next active-learning iteration.
-
----
-
-## Final MACE Model Training and Validation
-Following the active-learning iterations, the final MACE MLIP was trained using the curated dataset. The training/validation errors and parity plots for energies/forces are shown below.
-
-![Final MACE MLIP training and validation performance](figures/mace_training_validation_epoch496.png)
-
-**Figure:** Training and validation performance of the final MACE MLIP from epoch 496. The figure shows the training and validation loss curves, the validation RMSE evolution for energy and forces, and parity plots comparing MACE-predicted energies and forces against DFT-calculated values.
 
 ---
 
