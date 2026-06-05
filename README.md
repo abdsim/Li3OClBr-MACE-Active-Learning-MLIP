@@ -68,6 +68,15 @@ Contains DFT-labelled structures selected from the exploration stage. The result
 
 ---
 
+## Final MACE Model Training and Validation
+Following the active-learning iterations, the final MACE MLIP was trained using the curated dataset generated from the iterative sampling and DFT relabelling workflow. The training history, validation errors, and parity plots for energy and force predictions are shown below.
+
+![Final MACE MLIP training and validation performance](figures/mace_training_validation_epoch496.png)
+
+**Figure:** Training and validation performance of the final MACE MLIP from epoch 496. The figure shows the training and validation loss curves, the validation RMSE evolution for energy and forces, and parity plots comparing MACE-predicted energies and forces against DFT-calculated values.
+
+---
+
 ## PCA-analysis datasets
 
 The `PCA_Analysis/` folder contains additional datasets used to compare the structural diversity of new configurations against the training data.
