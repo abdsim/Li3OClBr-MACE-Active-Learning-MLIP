@@ -94,7 +94,7 @@ For MACE installation instructions, see the official MACE documentation:
 
 ## Running training jobs
 
-Training was run from the corresponding training directory using the prepared `train.py` file. A typical command was:
+Training was run from the corresponding training directory using the prepared `train.py` file with the command:
 
 ```bash
 conda activate mace_cueq
