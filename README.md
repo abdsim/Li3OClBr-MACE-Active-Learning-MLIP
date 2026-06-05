@@ -8,6 +8,9 @@ This repository accompanies work on training a **MACE machine-learning interatom
 
 ```text
 Li3OClBr-MACE-Active-Learning-MLIP/
+├── README.md
+├── figures/
+│   └── mace_training_validation_epoch496.png
 ├── MACE_Active_Learning/
 │   ├── 1_iteration/
 │   │   ├── 0_RAG_Structure_Generator/
