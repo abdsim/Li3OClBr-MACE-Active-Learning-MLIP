@@ -43,10 +43,10 @@ The repository is divided into two main parts:
 
 ## Active-learning workflow
 
-The active-learning workflow follows the general loop:
+The active-learning workflow follows the general loop after generating the initial dataset:
 
 ```text
-Generate initial structures → Train MACE model → Run MACE-driven MD → Explore/select new structures → Label with DFT → Retrain MACE model
+Train MACE model → Run MACE-driven MD → Explore/select new structures → Label with DFT → Retrain MACE model
 ```
 
 ### `0_RAG_Structure_Generator/`
