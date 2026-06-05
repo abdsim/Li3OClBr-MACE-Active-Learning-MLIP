@@ -4,7 +4,7 @@ This repository accompanies work on training a **MACE machine-learning interatom
 
 ---
 
-## Repository structure
+## File structure
 
 ```text
 Li3OClBr-MACE-Active-Learning-MLIP/
