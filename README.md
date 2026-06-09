@@ -123,3 +123,18 @@ Depending on the folder, the repository may contain:
 Please cite the following study or this repository if you make use of the files available in this repository:
 
 Abdullah Bin Faheem and Haobo Li. "Machine-Learning-Potential-Driven Volcano Relationship in Grain Boundary Amorphicity and Ionic Transport of Antiperovskite Solid Electrolytes." Journal XXX (20XX): XX-XX.
+Abdullah Bin Faheem and Haobo Li (2026). Li3OClBr-MACE-Active-Learning-MLIP (Version 1.0) [Data set]. GitHub. https://github.com/abdsim/Li3OClBr-MACE-Active-Learning-MLIP
+
+## License
+
+Unless otherwise stated, the data in this repository are licensed under the Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0).
+
+You may copy, redistribute, modify, and use the dataset, including for training machine-learning models, for noncommercial purposes.
+
+When sharing the dataset or a modified version, you must give appropriate credit to the dataset creators.
+
+When publishing research based on this dataset, please use the citation provided in the Citation section above.
+
+This license applies only to the dataset and associated metadata. It does not apply to third-party software, third-party datasets, or other materials identified as having separate licensing terms.
+
+Commercial use is not permitted under CC BY-NC 4.0. Requests for separate commercial permission should be submitted by opening an issue in this repository.
