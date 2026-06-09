@@ -132,10 +132,10 @@ The data in this repository are licensed under the Creative Commons Attributionâ
 
 You may copy, redistribute, modify, and use the dataset, including for training machine-learning models, for noncommercial purposes.
 
-When sharing the dataset or a modified version, you must give appropriate credit to the dataset creators.
+When sharing the dataset or a modified version, appropriate credit should be given to the dataset creators.
 
-When publishing research based on this dataset, please use the citation provided in the Citation section above.
+When publishing research based on this dataset, please use the citation provided in the section above.
 
 This license applies only to the dataset and associated metadata. It does not apply to third-party software, third-party datasets, or other materials identified as having separate licensing terms.
 
-Commercial use is not permitted under CC BY-NC 4.0. Requests for separate commercial permission should be submitted by opening an issue in this repository.
+Requests for separate commercial permission should be submitted by opening an issue in this repository.
