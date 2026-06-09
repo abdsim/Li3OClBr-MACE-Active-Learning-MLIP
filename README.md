@@ -128,7 +128,7 @@ Abdullah Bin Faheem and Haobo Li (2026). Li3OClBr-MACE-Active-Learning-MLIP (Ver
 
 ## License
 
-Unless otherwise stated, the data in this repository are licensed under the Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0).
+The data in this repository are licensed under the Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0).
 
 You may copy, redistribute, modify, and use the dataset, including for training machine-learning models, for noncommercial purposes.
 
