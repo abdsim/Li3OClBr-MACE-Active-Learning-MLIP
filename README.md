@@ -126,16 +126,14 @@ Abdullah Bin Faheem and Haobo Li. "Machine-Learning-Potential-Driven Volcano Rel
 
 Abdullah Bin Faheem and Haobo Li (2026). Li3OClBr-MACE-Active-Learning-MLIP (Version 1.0) [Data set]. GitHub. https://github.com/abdsim/Li3OClBr-MACE-Active-Learning-MLIP
 
-## License
+The data and associated metadata in this repository are made available under the MIT License.
 
-The data in this repository are licensed under the Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0).
+You may use, copy, modify, merge, publish, distribute, sublicense, and commercially use the dataset, including for training machine-learning models, subject to the terms of the MIT License.
 
-You may copy, redistribute, modify, and use the dataset, including for training machine-learning models, for noncommercial purposes.
+The copyright notice and MIT License notice must be included in all copies or substantial portions of the dataset.
 
-When sharing the dataset or a modified version, appropriate credit should be given to the dataset creators.
-
-When publishing research based on this dataset, please use the citation provided in the section above.
+When publishing research based on this dataset, please cite the work listed in the Citation section above.
 
 This license applies only to the dataset and associated metadata. It does not apply to third-party software, third-party datasets, or other materials identified as having separate licensing terms.
 
-Requests for separate commercial permission should be submitted by opening an issue in this repository.
+The dataset is provided “as is,” without warranty of any kind. See the LICENSE file for the complete terms.
