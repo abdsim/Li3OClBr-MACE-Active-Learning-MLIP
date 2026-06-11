@@ -40,7 +40,7 @@ Li3OClBr-MACE-Active-Learning-MLIP/
 The repository is divided into several main parts:
 
 - **`MACE_Active_Learning/`** contains the active-learning iterations used to train and improve the MACE potential.
-- **`PCA_Analysis/`** contains additional datasets used for PCA-based analysis of structural diversity and validation coverage.
+- **`PCA_Analysis/`** contains additional datasets used for PCA of structural diversity and validation coverage.
 - **`Codes/`** contains the python scripts utilized in our work.
 - **`Molecular_Dynamics/`** contains molecular dynamics inputs and outputs for bulk systems and systems containing grain boundaries. It also includes the model used to run molecular dynamics simulations with LAMMPS.
 - **`Figure_Data/`** contains Excel files with the figure source data for our work.
@@ -61,11 +61,11 @@ Located in `MACE_Active_Learning/1_iteration/`, this folder contains the workflo
 
 ### `1_training/`
 
-Contains the MACE training files for each iteration. These folders may include training configurations, input datasets, trained model files, logs, and model-error outputs.
+Contains the MACE training files for each iteration. These folders may include datasets, training inputs/outputs from MACE, and trained model files.
 
 ### `2_md/`
 
-Contains molecular dynamics simulations performed using the MACE potential from the corresponding iteration. These simulations were used to sample additional atomic environments beyond the current training set.
+Contains molecular dynamics simulations input/outputs performed using the MACE potential from the corresponding iteration. These simulations were used to sample additional atomic environments beyond the current training set.
 
 ### `3_exploration/`
 
@@ -73,7 +73,7 @@ Contains structures selected from the MD/exploration stage. These configurations
 
 ### `4_dft/`
 
-Contains DFT-labelled structures selected from the exploration stage. The resulting reference energies, forces, and/or stresses were added to the training data for the next active-learning iteration.
+Contains DFT-labelled structures selected from the exploration stage. The resulting reference energies and forces were added to the training data for the next active-learning iteration.
 
 ---
 
@@ -81,15 +81,13 @@ Contains DFT-labelled structures selected from the exploration stage. The result
 
 The `PCA_Analysis/` folder contains additional datasets used to compare the structural diversity of new configurations against the training data.
 
-The PCA datasets include newly generated grain-boundary and defect configurations for Li<sub>3</sub>OCl, Li<sub>3</sub>OCl<sub>0.50</sub>Br<sub>0.50</sub>, and Li<sub>3</sub>OBr. The grain boundaries were constructed along 2-, 4-, and 6-fold rotation axes with coincident-site-lattice values up to Σ15, while the defect structures include vacancies, anion swaps, and disordered configurations.
-
 ### `Amorphous_validation_dataset/`
 
-Contains amorphous validation structures used to test the MACE potential on disordered environments not limited to crystalline configurations.
+Contains amorphous validation structures used to test the MACE potential on disordered environments, not limited to crystalline configurations.
 
 ### `Defects_validation_dataset/`
 
-Contains defect-containing validation structures, including configurations with vacancies, anion swaps, and disorder.
+Contains defect-containing validation structures, including configurations with vacancies, anion swaps, disorder, and grain boundaries.
 
 ---
 
@@ -112,7 +110,7 @@ conda activate mace_cueq
 python train.py > train.out
 ```
 
-The exact inputs, dataset paths, model settings, and output files depend on the specific active-learning iteration.
+The exact inputs, datasets, model settings, and output files depend on the specific active-learning iteration.
 
 ---
 
@@ -122,18 +120,18 @@ Please cite the following study or this repository if you make use of the files 
 
 Abdullah Bin Faheem and Haobo Li. "Machine-Learning-Potential-Driven Volcano Relationship in Grain Boundary Amorphicity and Ionic Transport of Antiperovskite Solid Electrolytes." Journal XXX (20XX): XX-XX.
 
-Abdullah Bin Faheem and Haobo Li (2026). Li3OClBr-MACE-Active-Learning-MLIP (Version 1.0) [Data set]. GitHub. https://github.com/abdsim/Li3OClBr-MACE-Active-Learning-MLIP
+Abdullah Bin Faheem and Haobo Li (2026). Li3OClBr-MACE-Active-Learning-MLIP (Version 1.0). GitHub. https://github.com/abdsim/Li3OClBr-MACE-Active-Learning-MLIP.
 
 ## License
 
 The data in this repository are licensed under the Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0).
 
-You may copy, redistribute, modify, and use the dataset, including for training machine-learning models, for noncommercial purposes.
+You may copy, redistribute, modify, and use the files in this repository for non-commercial purposes.
 
-When sharing the dataset or a modified version, appropriate credit should be given.
+When sharing the files or their modified versions, appropriate credit should be given.
 
-When publishing research based on this dataset, please use the citation provided in the section above.
+When publishing using these files, please use the citation provided in the section above.
 
-This license applies only to the dataset and associated metadata. It does not apply to third-party software, third-party datasets, or other materials identified as having separate licensing terms.
+This license applies only to the dataset and associated files. It does not apply to third-party software, third-party datasets, or other items identified as having separate licensing terms.
 
 Requests for separate commercial permission should be submitted by opening an issue in this repository.
