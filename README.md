@@ -1,6 +1,6 @@
 # Li<sub>3</sub>OCl<sub>1-x</sub>Br<sub>x</sub> MACE MLIP
 
-This repository accompanies work on training a MACE machine-learning interatomic potential (MLIP) for the Li<sub>3</sub>OCl<sub>1-x</sub>Br<sub>x</sub> solid-electrolyte system using an active-learning workflow. It contains the MACE active-learning iterations, DFT-labelled structures used to improve the potential, PCA datasets used to assess the diversity of the training data, python scripts, molecular dynamics inputs/outputs, and figure source data.
+This repository accompanies work on training a MACE machine learning interatomic potential (MLIP) for the Li<sub>3</sub>OCl<sub>1-x</sub>Br<sub>x</sub> solid-electrolyte system using an active-learning workflow. It contains the MACE active-learning iterations, DFT-labelled structures used to improve the potential, PCA datasets used to assess the diversity of the training data, python scripts, molecular dynamics inputs/outputs, and figure source data.
 
 ---
 
