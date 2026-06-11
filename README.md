@@ -51,7 +51,7 @@ The repository is divided into several main parts:
 
 ## Codes
 
-The `Codes/` folder contains the Python scripts utilized in this work. These scripts support data preparation, analysis, post-processing, visualization, and other workflow steps associated with the MACE MLIP development, PCA analysis, molecular dynamics simulations, and figure generation.
+The `Codes/` folder contains the Python scripts utilized in this work. 
 
 ---
 
