@@ -9,12 +9,6 @@ This repository accompanies work on training a MACE machine-learning interatomic
 ```text
 Li3OClBr-MACE-Active-Learning-MLIP/
 ├── README.md
-├── Codes/
-├── Figure_Data/
-├── Molecular_Dynamics/
-│   ├── Bulk_Electrolyte/
-│   ├── Grain_Boundary_Systems/
-│   └── model.pt
 ├── MACE_Active_Learning/
 │   ├── 1_iteration/
 │   │   ├── 0_RAG_Structure_Generator/
@@ -28,9 +22,15 @@ Li3OClBr-MACE-Active-Learning-MLIP/
 │   │   ├── 3_exploration/
 │   │   └── 4_dft/
 │   └── 3_iteration/
-└── PCA_Analysis/
-    ├── Amorphous_validation_dataset/
-    └── Defects_validation_dataset/
+├── PCA_Analysis/
+│   ├── Amorphous_validation_dataset/
+│   └── Defects_validation_dataset/
+├── Codes/
+├── Molecular_Dynamics/
+│   ├── Bulk_Electrolyte/
+│   ├── Grain_Boundary_Systems/
+│   └── model.pt
+└── Figure_Data/
 ```
 
 ---
