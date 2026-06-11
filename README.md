@@ -57,7 +57,7 @@ The `Codes/` folder contains the Python scripts utilized in this work.
 
 ## Figure source data
 
-The `Figure_Data/` folder contains Excel files with the source data used to generate the figures.
+The `Figure_Data/` folder contains Excel files with the source data used to generate the figures for this work.
 
 ---
 
