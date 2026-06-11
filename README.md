@@ -63,7 +63,7 @@ The `Figure_Data/` folder contains Excel files with the source data used to gene
 
 ## Molecular dynamics data
 
-The `Molecular_Dynamics/` folder contains molecular dynamics inputs and outputs for both bulk systems and systems containing grain boundaries. These data include the files needed to reproduce or analyze the molecular dynamics simulations discussed in the work.
+The `Molecular_Dynamics/` folder contains molecular dynamics inputs and outputs for both bulk systems and systems containing grain boundaries. These data include the files needed to reproduce the molecular dynamics simulations discussed in the work.
 
 This folder also includes the model used to run molecular dynamics simulations with LAMMPS.
 
