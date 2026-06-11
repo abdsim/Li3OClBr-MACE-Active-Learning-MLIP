@@ -132,6 +132,6 @@ When sharing the files or their modified versions, appropriate credit should be 
 
 When publishing using these files, please use the citation provided in the section above.
 
-This license applies only to the dataset and associated files. It does not apply to third-party software, third-party datasets, or other items identified as having separate licensing terms.
+This license does not apply to third-party software, third-party datasets, or other items identified as having separate licensing terms.
 
 Requests for separate commercial permission should be submitted by opening an issue in this repository.
