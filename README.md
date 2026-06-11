@@ -37,7 +37,7 @@ Li3OClBr-MACE-Active-Learning-MLIP/
 
 ## Overview
 
-The goal of this repository is to document the development and application of a MACE MLIP for Li<sub>3</sub>OClBr. The workflow combines initial structure generation, MACE model training, MACE-driven molecular dynamics, exploration of new atomic environments, and DFT relabelling of selected structures. The dataset was improved iteratively so that the potential sampled increasingly diverse and physically relevant configurations of the Li<sub>3</sub>OClBr system.
+The goal of this repository is to document the development and application of a MACE MLIP for Li<sub>3</sub>OCl<sub>1-x</sub>Br<sub>x</sub>. The workflow combines initial structure generation, MACE model training, MACE-driven molecular dynamics, exploration of new atomic environments, and DFT relabelling of selected structures. The dataset was improved iteratively so that the potential sampled increasingly diverse and physically relevant configurations of the Li<sub>3</sub>OClBr system.
 
 The repository is divided into several main parts:
 
