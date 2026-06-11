@@ -116,23 +116,6 @@ The exact inputs, dataset paths, model settings, and output files depend on the 
 
 ---
 
-## Data description
-
-Depending on the folder, the repository may contain:
-
-- Initial structures generated for the first training dataset
-- MACE training scripts and input/output files
-- Trained MACE model files and training logs
-- Selected exploratory structures
-- DFT-labelled configurations
-- PCA-analysis datasets for amorphous, grain-boundary, and defect-containing structures
-- Python scripts utilized for analysis, processing, and visualization
-- Excel files containing figure source data
-- Molecular dynamics inputs and outputs for bulk and grain-boundary systems
-- The model used to run molecular dynamics simulations with LAMMPS
-
----
-
 ## Citation
 
 Please cite the following study or this repository if you make use of the files available in this repository:
