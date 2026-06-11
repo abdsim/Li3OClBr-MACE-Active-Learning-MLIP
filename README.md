@@ -1,6 +1,6 @@
 # Li<sub>3</sub>OClBr MACE MLIP: Active Learning, PCA, Figure Data, and Molecular Dynamics Dataset
 
-This repository accompanies work on training a **MACE machine-learning interatomic potential (MLIP)** for the Li<sub>3</sub>OClBr solid-electrolyte system using an **active-learning workflow**. It contains the MACE active-learning iterations, DFT-labelled structures used to improve the potential, PCA-analysis datasets used to assess the diversity of grain-boundary, amorphous, and defect-containing configurations, figure source data, Python scripts, and molecular dynamics inputs/outputs.
+This repository accompanies work on training a MACE machine-learning interatomic potential (MLIP) for the Li<sub>3</sub>OClBr solid-electrolyte system using an **active-learning workflow**. It contains the MACE active-learning iterations, DFT-labelled structures used to improve the potential, PCA-analysis datasets used to assess the diversity of grain-boundary, amorphous, and defect-containing configurations, figure source data, Python scripts, and molecular dynamics inputs/outputs.
 
 ---
 
