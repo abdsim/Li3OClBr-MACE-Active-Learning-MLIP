@@ -28,7 +28,6 @@ Li3OClBr-MACE-Active-Learning-MLIP/
 │   │   ├── 3_exploration/
 │   │   └── 4_dft/
 │   └── 3_iteration/
-│
 └── PCA_Analysis/
     ├── Amorphous_validation_dataset/
     └── Defects_validation_dataset/
