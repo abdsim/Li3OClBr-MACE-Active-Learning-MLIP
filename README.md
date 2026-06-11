@@ -49,6 +49,26 @@ The repository is divided into several main parts:
 
 ---
 
+## Codes
+
+The `Codes/` folder contains the Python scripts utilized in this work. These scripts support data preparation, analysis, post-processing, visualization, and other workflow steps associated with the MACE MLIP development, PCA analysis, molecular dynamics simulations, and figure generation.
+
+---
+
+## Figure source data
+
+The `Figure_Data/` folder contains Excel files with the source data used to generate the figures.
+
+---
+
+## Molecular dynamics data
+
+The `Molecular_Dynamics/` folder contains molecular dynamics inputs and outputs for both bulk systems and systems containing grain boundaries. These data include the files needed to reproduce or analyze the molecular dynamics simulations discussed in the work.
+
+This folder also includes the model used to run molecular dynamics simulations with LAMMPS.
+
+---
+
 ## Active-learning workflow
 
 The active-learning workflow follows the general loop after generating the initial dataset:
@@ -92,26 +112,6 @@ Contains amorphous validation structures used to test the MACE potential on diso
 ### `Defects_validation_dataset/`
 
 Contains defect-containing validation structures, including configurations with vacancies, anion swaps, and disorder.
-
----
-
-## Codes
-
-The `Codes/` folder contains the Python scripts utilized in this work. These scripts support data preparation, analysis, post-processing, visualization, and other workflow steps associated with the MACE MLIP development, PCA analysis, molecular dynamics simulations, and figure generation.
-
----
-
-## Figure source data
-
-The `Figure_Data/` folder contains Excel files with the source data used to generate the figures.
-
----
-
-## Molecular dynamics data
-
-The `Molecular_Dynamics/` folder contains molecular dynamics inputs and outputs for both bulk systems and systems containing grain boundaries. These data include the files needed to reproduce or analyze the molecular dynamics simulations discussed in the work.
-
-This folder also includes the model used to run molecular dynamics simulations with LAMMPS.
 
 ---
 
