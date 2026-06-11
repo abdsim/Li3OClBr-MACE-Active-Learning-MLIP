@@ -1,6 +1,6 @@
-# Li<sub>3</sub>OClBr MACE MLIP: Active Learning and PCA Dataset
+# Li<sub>3</sub>OClBr MACE MLIP: Active Learning, PCA, Figure Data, and Molecular Dynamics Dataset
 
-This repository accompanies work on training a **MACE machine-learning interatomic potential (MLIP)** for the Li<sub>3</sub>OClBr solid-electrolyte system using an **active-learning workflow**. It contains the MACE active-learning iterations, DFT-labelled structures used to improve the potential, and additional PCA-analysis datasets used to assess the diversity of grain-boundary, amorphous, and defect-containing configurations.
+This repository accompanies work on training a **MACE machine-learning interatomic potential (MLIP)** for the Li<sub>3</sub>OClBr solid-electrolyte system using an **active-learning workflow**. It contains the MACE active-learning iterations, DFT-labelled structures used to improve the potential, PCA-analysis datasets used to assess the diversity of grain-boundary, amorphous, and defect-containing configurations, figure source data, Python scripts, and molecular dynamics inputs/outputs.
 
 ---
 
@@ -9,6 +9,12 @@ This repository accompanies work on training a **MACE machine-learning interatom
 ```text
 Li3OClBr-MACE-Active-Learning-MLIP/
 ├── README.md
+├── Codes/
+├── Figure_Data/
+├── Molecular_Dynamics/
+│   ├── Bulk_Electrolyte/
+│   ├── Grain_Boundary_Systems/
+│   └── model.pt
 ├── MACE_Active_Learning/
 │   ├── 1_iteration/
 │   │   ├── 0_RAG_Structure_Generator/
@@ -32,12 +38,15 @@ Li3OClBr-MACE-Active-Learning-MLIP/
 
 ## Overview
 
-The goal of this repository is to document the development of a MACE MLIP for Li<sub>3</sub>OClBr. The workflow combines initial structure generation, MACE model training, MACE-driven molecular dynamics, exploration of new atomic environments, and DFT relabelling of selected structures. The dataset was improved iteratively so that the potential sampled increasingly diverse and physically relevant configurations of the Li<sub>3</sub>OClBr system.
+The goal of this repository is to document the development and application of a MACE MLIP for Li<sub>3</sub>OClBr. The workflow combines initial structure generation, MACE model training, MACE-driven molecular dynamics, exploration of new atomic environments, and DFT relabelling of selected structures. The dataset was improved iteratively so that the potential sampled increasingly diverse and physically relevant configurations of the Li<sub>3</sub>OClBr system.
 
-The repository is divided into two main parts:
+The repository is divided into several main parts:
 
 - **`MACE_Active_Learning/`** contains the active-learning iterations used to train and improve the MACE potential.
 - **`PCA_Analysis/`** contains additional datasets used for PCA-based analysis of structural diversity and validation coverage.
+- **`Codes/`** contains the Python scripts utilized.
+- **`Figure_Data/`** contains Excel files with the figure source data.
+- **`Molecular_Dynamics/`** contains molecular dynamics inputs and outputs for bulk systems and systems containing grain boundaries. It also includes the model used to run molecular dynamics simulations with LAMMPS.
 
 ---
 
@@ -50,18 +59,23 @@ Train MACE model → Run MACE-driven MD → Explore/select new structures → La
 ```
 
 ### `0_RAG_Structure_Generator/`
+
 Located in `MACE_Active_Learning/1_iteration/`, this folder contains the workflow used to generate the initial dataset for the first MACE training iteration.
 
 ### `1_training/`
+
 Contains the MACE training files for each iteration. These folders may include training configurations, input datasets, trained model files, logs, and model-error outputs.
 
 ### `2_md/`
+
 Contains molecular dynamics simulations performed using the MACE potential from the corresponding iteration. These simulations were used to sample additional atomic environments beyond the current training set.
 
 ### `3_exploration/`
+
 Contains structures selected from the MD/exploration stage. These configurations were used to identify new or underrepresented regions of configurational space for further evaluation.
 
 ### `4_dft/`
+
 Contains DFT-labelled structures selected from the exploration stage. The resulting reference energies, forces, and/or stresses were added to the training data for the next active-learning iteration.
 
 ---
@@ -79,6 +93,26 @@ Contains amorphous validation structures used to test the MACE potential on diso
 ### `Defects_validation_dataset/`
 
 Contains defect-containing validation structures, including configurations with vacancies, anion swaps, and disorder.
+
+---
+
+## Codes
+
+The `Codes/` folder contains the Python scripts utilized in this work. These scripts support data preparation, analysis, post-processing, visualization, and other workflow steps associated with the MACE MLIP development, PCA analysis, molecular dynamics simulations, and figure generation.
+
+---
+
+## Figure source data
+
+The `Figure_Data/` folder contains Excel files with the source data used to generate the figures.
+
+---
+
+## Molecular dynamics data
+
+The `Molecular_Dynamics/` folder contains molecular dynamics inputs and outputs for both bulk systems and systems containing grain boundaries. These data include the files needed to reproduce or analyze the molecular dynamics simulations discussed in the work.
+
+This folder also includes the model used to run molecular dynamics simulations with LAMMPS.
 
 ---
 
@@ -115,6 +149,10 @@ Depending on the folder, the repository may contain:
 - Selected exploratory structures
 - DFT-labelled configurations
 - PCA-analysis datasets for amorphous, grain-boundary, and defect-containing structures
+- Python scripts utilized for analysis, processing, and visualization
+- Excel files containing figure source data
+- Molecular dynamics inputs and outputs for bulk and grain-boundary systems
+- The model used to run molecular dynamics simulations with LAMMPS
 
 ---
 
