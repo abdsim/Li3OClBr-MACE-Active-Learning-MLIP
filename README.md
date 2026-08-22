@@ -40,7 +40,7 @@ The repository is divided into several main parts:
 
 - **`MACE_Active_Learning/`** contains the active-learning iterations used to train and improve the MACE potential.
 - **`Evaluation_Datasets/`** contains the evaluation datasets for grain-boundary systems, bulk systems containing defects, and amorphous configurations.
-- **`PCA_Analysis/`** contains additional datasets used for PCA-based analysis of structural diversity and validation coverage. The `Amorphous` and `Defective` datasets were compared with the training data.
+- **`PCA_Analysis/`** contains additional datasets used for PCA-based analysis of structural diversity and validation coverage.
 - **`Codes/`** contains the python scripts utilized in our work.
 - **`Molecular_Dynamics/`** contains molecular dynamics inputs and outputs for bulk systems and systems containing grain boundaries. It also includes the model used to run molecular dynamics simulations with LAMMPS.
 - **`Figure_Data/`** contains Excel files with the figure source data for our work.
