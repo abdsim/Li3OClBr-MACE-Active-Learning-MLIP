@@ -1,6 +1,6 @@
 # Li<sub>3</sub>OCl<sub>1-x</sub>Br<sub>x</sub> MACE MLIP
 
-This repository accompanies work on training a MACE machine learning interatomic potential (MLIP) for the Li<sub>3</sub>OCl<sub>1-x</sub>Br<sub>x</sub> solid-electrolyte system using an active-learning workflow. It contains the MACE active-learning iterations, training data, PCA datasets used to assess the diversity of the training data, evaluation datasets, python scripts, molecular dynamics inputs/outputs, and figure source data.
+This repository accompanies work on training a MACE machine learning interatomic potential (MLIP) for the Li<sub>3</sub>OCl<sub>1-x</sub>Br<sub>x</sub> solid-electrolyte system using an active-learning workflow. It contains the MACE active-learning iterations, training data, PCA datasets used to assess the diversity of the training data, evaluation datasets, Python scripts, molecular dynamics files, and figure source data.
 
 ---
 
@@ -32,7 +32,7 @@ The repository is divided into several main parts:
 - **`MACE_Active_Learning/`** contains the active-learning iterations used to train and improve the MACE potential.
 - **`Evaluation_Datasets/`** contains the evaluation datasets for grain-boundary systems, bulk systems containing defects, and amorphous configurations.
 - **`PCA_Analysis/`** contains additional datasets used for PCA-based analysis of structural diversity and validation coverage.
-- **`Codes/`** contains the python scripts utilized in our work.
+- **`Codes/`** contains the Python scripts utilized in our work.
 - **`Molecular_Dynamics/`** contains molecular dynamics inputs and outputs for bulk systems and systems containing grain boundaries. It also includes the model used to run molecular dynamics simulations with LAMMPS.
 - **`Figure_Data/`** contains Excel files with the figure source data for our work.
 
@@ -42,9 +42,7 @@ The repository is divided into several main parts:
 
 The active-learning workflow follows the general loop after generating the initial dataset:
 
-```text
 Train MACE model → Run MACE-driven MD → Explore/select new structures → Label with DFT → Retrain MACE model
-```
 
 ### `0_RAG_Structure_Generator/`
 
@@ -52,11 +50,11 @@ Located in `MACE_Active_Learning/1_iteration/`, this folder contains the workflo
 
 ### `1_training/`
 
-Contains the MACE training files for each iteration. These folders include training inputs/outputs for MACE, and trained model files.
+Contains the MACE training files for each iteration. These folders include training files for MACE and the trained model files.
 
 ### `2_md/`
 
-Contains molecular dynamics simulations input/outputs performed using the MACE potential from the corresponding iteration. These simulations were used to sample additional atomic environments beyond the current training set.
+Contains molecular dynamics simulation files used to perform the MACE-MD. These simulations were used to sample additional atomic environments beyond the current training set.
 
 ### `3_exploration/`
 
@@ -64,7 +62,7 @@ Contains structures selected from the MD/exploration stage. These configurations
 
 ### `4_dft/`
 
-Contains DFT-labelled structures selected from the exploration stage. The resulting reference energies and forces were added to the training data for the next active-learning iteration.
+Contains inputs used to carry out DFT calculations.
 
 ---
 
@@ -111,7 +109,7 @@ The exact inputs, datasets, model settings, and output files depend on the speci
 
 Please cite the following study or this repository if you make use of the files available in this repository:
 
-Abdullah Bin Faheem and Haobo Li. "Machine-Learning-Potential-Driven Volcano Relationship in Grain Boundary Amorphicity and Ionic Transport of Antiperovskite Solid Electrolytes." Journal XXX (20XX): XX-XX.
+Abdullah Bin Faheem and Haobo Li. "Machine-Learning-Potential-Driven Volcano Relationship in Grain Boundary Amorphicity and Ionic Transport of Antiperovskite Solid Electrolytes." Advanced Materials (2026), https://doi.org/10.1002/adma.75492.
 
 Abdullah Bin Faheem and Haobo Li (2026). Li3OClBr-MACE-Active-Learning-MLIP (Version 1.0). GitHub. https://github.com/abdsim/Li3OClBr-MACE-Active-Learning-MLIP.
 
