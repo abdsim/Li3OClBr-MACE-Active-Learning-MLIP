@@ -111,8 +111,6 @@ Please cite the following study or this repository if you make use of the files 
 
 Abdullah Bin Faheem and Haobo Li. "Machine-Learning-Potential-Driven Volcano Relationship in Grain Boundary Amorphicity and Ionic Transport of Antiperovskite Solid Electrolytes." Advanced Materials (2026), https://doi.org/10.1002/adma.75492.
 
-Abdullah Bin Faheem and Haobo Li (2026). Li3OClBr-MACE-Active-Learning-MLIP (Version 1.0). GitHub. https://github.com/abdsim/Li3OClBr-MACE-Active-Learning-MLIP.
-
 ## License
 
 The data in this repository are licensed under the Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0).
